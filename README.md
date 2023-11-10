@@ -6,7 +6,7 @@ isso dai é um server de mine 1.5.2, se tu quiser usar...
 
 * primeiro: comecando
 
-para comecar baixe o ava se voce nao tiver baixado, depois va ate o arquivo "server.properties" e coloque onde esta "NOME-FODA" o nome do seu server 
+para comecar baixe o java se voce nao tiver baixado, depois va ate o arquivo "server.properties" e coloque onde esta "NOME-FODA" o nome do seu server 
 depois vai em "IP-DO-KRL" e coloque o ip da sua maquina que vai ser o server (procura no google como saber seu ip)
 se vc quiser mudar mais alguma coisa seja livre vc esta com seu server, se vc mudar n vai mudar o meu, ent pode fazer merda (:
 
