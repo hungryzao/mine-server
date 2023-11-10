@@ -1,0 +1,92 @@
+2023-11-09 19:28:50 [INFO] Starting minecraft server version 1.5.2
+2023-11-09 19:28:50 [INFO] Loading properties
+2023-11-09 19:28:50 [WARNING] server.properties does not exist
+2023-11-09 19:28:50 [INFO] Generating new properties file
+2023-11-09 19:28:50 [INFO] Default game type: SURVIVAL
+2023-11-09 19:28:50 [INFO] Generating keypair
+2023-11-09 19:28:50 [INFO] Starting Minecraft server on *:25565
+2023-11-09 19:28:51 [INFO] This server is running CraftBukkit version git-Bukkit-1.5.2-R1.0-b2788jnks (MC: 1.5.2) (Implementing API version 1.5.2-R1.0)
+2023-11-09 19:28:51 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+2023-11-09 19:28:51 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+2023-11-09 19:28:51 [INFO] Preparing level "world"
+2023-11-09 19:28:51 [SEVERE] Exception in thread "Thread-5" 
+2023-11-09 19:28:51 [SEVERE] org.bukkit.craftbukkit.libs.com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:180)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:755)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.Gson.fromJson(Gson.java:694)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.fetchArtifact(BukkitDLUpdaterService.java:51)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.BukkitDLUpdaterService.getArtifact(BukkitDLUpdaterService.java:28)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.v1_5_R3.updater.AutoUpdater$1.run(AutoUpdater.java:77)
+
+2023-11-09 19:28:51 [SEVERE] Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 7
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.expect(JsonReader.java:339)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.stream.JsonReader.beginObject(JsonReader.java:322)
+
+2023-11-09 19:28:51 [SEVERE] 	at org.bukkit.craftbukkit.libs.com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:168)
+
+2023-11-09 19:28:51 [SEVERE] 	... 5 more
+
+2023-11-09 19:28:51 [INFO] Preparing start region for level 0 (Seed: 8986029841120104859)
+2023-11-09 19:28:52 [INFO] Preparing spawn area: 16%
+2023-11-09 19:28:53 [INFO] Preparing spawn area: 45%
+2023-11-09 19:28:54 [INFO] Preparing spawn area: 74%
+2023-11-09 19:28:55 [INFO] Preparing start region for level 1 (Seed: 8986029841120104859)
+2023-11-09 19:28:55 [INFO] Preparing spawn area: 0%
+2023-11-09 19:28:56 [INFO] Preparing spawn area: 37%
+2023-11-09 19:28:57 [INFO] Preparing spawn area: 70%
+2023-11-09 19:28:58 [INFO] Preparing start region for level 2 (Seed: 8986029841120104859)
+2023-11-09 19:28:58 [INFO] Preparing spawn area: 16%
+2023-11-09 19:28:59 [INFO] Preparing spawn area: 91%
+2023-11-09 19:28:59 [INFO] Done (8.380s)! For help, type "help" or "?"
+2023-11-09 19:29:04 [INFO] CONSOLE: Stopping the server..[m
+
+2023-11-09 19:29:04 [INFO] Stopping server
+2023-11-09 19:29:04 [INFO] Saving players
+2023-11-09 19:29:04 [WARNING] DSCT: Socket closed
+2023-11-09 19:29:04 [INFO] Saving worlds
+2023-11-09 19:29:04 [INFO] Closing listening thread
+2023-11-09 19:29:04 [INFO] Saving chunks for level 'world'/Overworld
+2023-11-09 19:29:05 [INFO] Saving chunks for level 'world_nether'/Nether
+2023-11-09 19:29:05 [INFO] Saving chunks for level 'world_the_end'/The End
+2023-11-09 19:29:06 [INFO] Stopping server
+2023-11-09 19:31:29 [INFO] Starting minecraft server version 1.5.2
+2023-11-09 19:31:29 [INFO] Loading properties
+2023-11-09 19:31:29 [INFO] Default game type: SURVIVAL
+2023-11-09 19:31:29 [INFO] Generating keypair
+2023-11-09 19:31:29 [INFO] Starting Minecraft server on 216.152.76.250:25565
+2023-11-09 19:31:29 [WARNING] **** FAILED TO BIND TO PORT!
+2023-11-09 19:31:29 [WARNING] The exception was: java.net.BindException: Cannot assign requested address: bind
+2023-11-09 19:31:29 [WARNING] Perhaps a server is already running on that port?
+2023-11-09 19:31:41 [SEVERE] java.lang.NullPointerException: Cannot invoke "org.bukkit.craftbukkit.v1_5_R3.CraftServer.getPluginManager()" because "this.server" is null
+
+2023-11-09 19:31:41 [SEVERE] 	at net.minecraft.server.v1_5_R3.DedicatedServer.an(DedicatedServer.java:258)
+
+2023-11-09 19:31:41 [SEVERE] 	at net.minecraft.server.v1_5_R3.DedicatedServer.a(DedicatedServer.java:204)
+
+2023-11-09 19:31:41 [SEVERE] 	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:417)
+
+2023-11-09 19:31:41 [SEVERE] 	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+
+2023-11-09 19:31:41 [SEVERE] Encountered an unexpected exception NullPointerException
+java.lang.NullPointerException: Cannot invoke "org.bukkit.craftbukkit.v1_5_R3.CraftServer.getPluginManager()" because "this.server" is null
+	at net.minecraft.server.v1_5_R3.DedicatedServer.an(DedicatedServer.java:258)
+	at net.minecraft.server.v1_5_R3.DedicatedServer.a(DedicatedServer.java:204)
+	at net.minecraft.server.v1_5_R3.MinecraftServer.run(MinecraftServer.java:417)
+	at net.minecraft.server.v1_5_R3.ThreadServerApplication.run(SourceFile:573)
+2023-11-09 19:31:41 [SEVERE] This crash report has been saved to: C:\Users\student\Downloads\New folder\.\crash-reports\crash-2023-11-09_19.31.41-server.txt
+2023-11-09 19:32:16 [INFO] Starting minecraft server version 1.5.2
+2023-11-09 19:32:16 [INFO] Loading properties
+2023-11-09 19:32:16 [INFO] Default game type: SURVIVAL
+2023-11-09 19:32:16 [INFO] Generating keypair
+2023-11-09 19:32:16 [INFO] Starting Minecraft server on 216.152.76.250:25565
+2023-11-09 19:32:16 [WARNING] **** FAILED TO BIND TO PORT!
+2023-11-09 19:32:16 [WARNING] The exception was: java.net.BindException: Cannot assign requested address: bind
+2023-11-09 19:32:16 [WARNING] Perhaps a server is already running on that port?
